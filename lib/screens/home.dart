@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:ungfindjob/screens/register.dart';
 import 'package:ungfindjob/utility/my_style.dart';
 
 class Home extends StatefulWidget {
@@ -47,7 +48,15 @@ class _HomeState extends State<Home> {
   }
 
   FlatButton registerButton() => FlatButton(
-        onPressed: () {},
+        onPressed: () {
+          print('You Click Register');
+
+          MaterialPageRoute materialPageRoute =
+              MaterialPageRoute(builder: (value) {
+            return Register();
+          });
+          Navigator.push(context, materialPageRoute);
+        },
         child: Text(
           'New Register',
           style: TextStyle(color: Colors.pink),
