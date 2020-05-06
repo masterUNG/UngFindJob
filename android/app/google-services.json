@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1052621496765",
+    "firebase_url": "https://ungfindjob.firebaseio.com",
+    "project_id": "ungfindjob",
+    "storage_bucket": "ungfindjob.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052621496765:android:a3b1e47c012d150ed6f2d4",
+        "android_client_info": {
+          "package_name": "com.flutterthailand.ungfindjob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052621496765-m5g2kkgmaufvfmla7at6pbkp02n66o2d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKCINraXe7YVJQZqWyaUXzAC_zEmp_Yug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052621496765-m5g2kkgmaufvfmla7at6pbkp02n66o2d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
